@@ -1,8 +1,8 @@
 {
-  "name": "vue-rangedate-picker-winslow",
+  "name": "vue-rangedate-picker-aureliusm",
   "version": "1.0.5",
   "description": "Date picker with range selection",
-  "author": "gw.winslow <winslow@winslow.io>",
+  "author": "aureliusm <mark.debeljak@gmail.com>",
   "main": "dist/vue-rangedate-picker.js",
   "module": "dist/vue-rangedate-picker.js",
   "browser": "dist/vue-rangedate-picker.js",
@@ -76,12 +76,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gwindes/vue-rangedate-picker-winslow.git"
+    "url": "git+https://github.com/aureliusm/vue-rangedate-picker-winslow.git"
   },
   "bugs": {
-    "url": "https://github.com/gwindes/vue-rangedate-picker-winslow/issues"
+    "url": "https://github.com/aureliusm/vue-rangedate-picker-winslow/issues"
   },
-  "homepage": "https://github.com/gwindes/vue-rangedate-picker-winslow#readme",
+  "homepage": "https://github.com/aureliusm/vue-rangedate-picker-winslow#readme",
   "license": "MIT",
   "keywords": [
     "plugin",
