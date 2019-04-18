@@ -3,6 +3,8 @@ import fecha from 'fecha'
 const defaultConfig = {}
 const defaultI18n = 'EN'
 const availableMonths = {
+  SI: ['Januar', 'Februar', 'Marec', 'April', 'Maj', 'Junij', 'Julij', 'Avgust', 'September', 'Oktober', 'November',
+    'December'],
   EN: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November',
     'December'],
   ID: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November',
@@ -10,11 +12,19 @@ const availableMonths = {
 }
 
 const availableShortDays = {
+  SI: ['Ned', 'Pon', 'Tor', 'Sre', 'Čet', 'Pet', 'Sob'],
   EN: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
   ID: ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab']
 }
 
 const presetRangeLabel = {
+  SI: {
+    today: 'Danes',
+    thisMonth: 'Ta mesec',
+    lastMonth: 'Prejšnji mesec',
+    lastSevenDays: 'Zadnjih 7 dni',
+    lastThirtyDays: 'Zadnjih 30 dni'
+  },
   EN: {
     today: 'Today',
     thisMonth: 'This Month',
@@ -32,8 +42,8 @@ const presetRangeLabel = {
 }
 
 const defaultCaptions = {
-  'title': 'Choose Dates',
-  'ok_button': 'Apply'
+  'title': 'Izberi datume',
+  'ok_button': 'Potrdi'
 }
 
 const defaultStyle = {
